@@ -24,5 +24,6 @@ public class StrongestEvenNumber{
 
 /* The Above solution was too slow to achieve the desired runtime, 
  * thus a new solution needs to be created. Runtime is something along the lines of 
- * O(Nlog(n)) where N is the while look, and log(n) is for loop
+ * O(n * N) where n is for the for loop. This is plainly n, since big O notation doesn't care about constants. This would in theory only go through half the iterations since only even numbers are considered.
+ * N is for the while loop. It is uncertain how many iterations the while loops runs for since it differs from case to case.
  */
