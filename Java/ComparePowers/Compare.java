@@ -22,7 +22,7 @@ public class Compare {
 }
 
 
-/*This was a solution I came up with, which completed alot of test cases such as the one seen in the main method, aswell as num1{15991, 714883}, num2{960290, 502358}
+/*This was a solution I came up with, which completed alot of test cases such as num1{15991, 714883}, num2{960290, 502358}
  * aswell as a lot more. It did however not have the speed to handle even larger tester cases such as:
  * num1{1668000, 5750487}, num2{7600018,5110029}.
  * This also gives some insanely large numbers. I have yet to come with a solution that can solve this efficiently.
