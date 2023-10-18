@@ -33,4 +33,8 @@ public class Solution {
 /*
  * The sum for loop could be replaced by a stream by using the stream java API, utilizing the simple .sum function of streams.
  * In general this method of solving for a prime isn't that efficient, since we have to loop through numbers, run a while loop, and check every number between 1 and prime variable.
+ * The whole isPrime method could be removed, by just adding another for loop instead of the while, which basically does the for loop check of isPrime instead.
+ * This new for loop would look like:
+ * for(int i = 2; i < prime; i++) {
+ * if(prime % i == 0) { prime++; i=2; } else {continue}
  */
