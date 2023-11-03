@@ -12,3 +12,10 @@ public class SecureTester {
         return true;
     }
 }
+
+/*
+* The Kata had the following restrictions:
+* At least one character("" is not valid).
+* Allowed characters are uppercase/lowercase lating letters and digits from 0 to 9
+* No whitespaces/underscore
+*\
