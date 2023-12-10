@@ -3,8 +3,8 @@ public class Runes {
     /*
     * The expressions to be evaluated is of the form: (Expression)(Op)(Expression)(Eq)(Result)
     */
-	public static int solveExpression( final String expression ) {
-	int missingDigit = -1; //Return this if there is no answer
+public static int solveExpression( final String expression ) {
+    int missingDigit = -1; //Return this if there is no answer
     if(expression == "") { 
       return missingDigit;
     }
